@@ -1,0 +1,57 @@
+    1  sudo -i
+    2  sudi -i
+    3  sudo install docker -y
+    4  y
+    5  sudo -i
+    6  exit
+    7  cd /home/ec2-user/
+    8  ls
+    9  cd openai_fastapi/
+   10  ls
+   11  cd main.py
+   12  [200~nano Dockerfile
+   13  ls
+   14  nano Dockerfile
+   15  nano requirements.txt
+   16  sudo docker build -t my-fastapi-app .
+   17  sudo docker run -d -p 80:80 my-fastapi-app
+   18  nano main.py
+   19  nano Dockerfile
+   20  sudo docker build -t my-fastapi-app .
+   21  sudo docker stop $(sudo docker ps -q --filter ancestor=my-fastapi-app)
+   22  sudo docker run -d -p 80:80 my-fastapi-app
+   23  sudo docker stop $(sudo docker ps -q --filter ancestor=my-fastapi-app)
+   24  sudo docker run -d -p 80:80 my-fastapi-app
+   25  docker ps
+   26  sudo docker ps
+   27  sudo docker logs fd2ac8610420
+   28  nano main.py
+   29  sudo docker ps
+   30  nano main.py
+   31  nano Dockerfile 
+   32  sudo docker build -t my-fastapi-app .
+   33  sudo docker stop $(sudo docker ps -q --filter ancestor=my-fastapi-app)
+   34  sudo docker run -d -p 80:80 my-fastapi-app
+   35  nano main.py 
+   36  sudo docker build -t my-fastapi-app .
+   37  sudo docker stop $(sudo docker ps -q --filter ancestor=my-fastapi-app)
+   38  sudo docker run -d -p 80:80 my-fastapi-app
+   39  nano main.py 
+   40  sudo yum install git
+   41  git init
+   42  git add .
+   43  git remote add origin <repository_url>
+   44  git branch -M main
+   45  git push -u origin main
+   46  git remote add origin https://github.com/erasaniabhinav/Cohere-openai
+   47  git branch -M main
+   48  git push -u origin main
+   49  git branch
+   50  git checkout -b main
+   51  git add .
+   52  git commit -m "Your commit message"
+   53  git remote -v
+   54  git push -u origin main
+   55  ls -la
+   56  cp ~/.bash_history ./bash_history.txt
+   57  history > bash_history.txt
